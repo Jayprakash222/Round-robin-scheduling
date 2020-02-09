@@ -8,14 +8,14 @@ public class RoundRobin {
 		sc = new Scanner(System.in);
 
 		//--------FCFS
-		System.out.println("Enter Number of Processes:");
+		System.out.println("ENTER NUMBER OF PROCESS THAT COME:");
 		int numProcess=sc.nextInt();
 		Process []process=new Process[numProcess];
 
 		//Accept Input
 		for(int i=0;i<numProcess;i++)
 		{
-			System.out.println("P("+(i+1)+"):Enter Arrival time & Burst time");
+			System.out.println("P("+(i+1)+"):ENTER ARRIVAL TIME & BURST TIME");
 			int at=sc.nextInt();
 			int bt=sc.nextInt();
 			//System.out.println("P("+(i+1)+"):Enter Arrival time");
